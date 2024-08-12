@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import "../../index.css";
 import Project from "./project";
+import Hire from "./hire";
+import About from "./about";
 
 export const Main = () => {
   const typewriterRef = useRef(null);
@@ -40,8 +42,8 @@ export const Main = () => {
   }, []);
 
   return (
-    <div className="p-8 px-12 bg-black text-white font-poppins ">
-      <div className="flex gap-60 items-center">
+    <div className="2xl:p-8 items-center p-4 2xl:px-12 md:px-12 bg-black text-white font-poppins">
+      <div className="flex items-center flex-col-reverse lg:flex-row gap-24 min-h-screen">
         <div>
           <div className="text-4xl space-x-2 font-bold">
             <span>Hello</span>
@@ -51,7 +53,7 @@ export const Main = () => {
           <div className="text-4xl space-x-2 font-bold pt-5">
             <span>I</span>
             <span>am</span>
-            <span className="text-purple-700">Kenza</span>
+            <span className="text-purple-700">Kea</span>
             <span className="text-purple-700">Vianda</span>
           </div>
 
@@ -71,30 +73,38 @@ export const Main = () => {
               repellat.
             </div>
 
-            <div className="pt-10 space-x-8">
-              <span>
-                <button className="text-white bg-purple-700 border py-2 px-5 rounded-md border-purple-700">
-                  Donwload CV
+            <div className="pt-10 flex flex-col gap-4 md:flex-row md:gap-8">
+              <div className="w-full md:w-auto">
+                <button class="relative inline-block font-medium group py-1.5 px-2.5 ">
+                  <span class="absolute inset-0 w-full h-full transition duration-400 ease-out transform translate-x-1 translate-y-1 bg-F2black group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+                  <span class="absolute inset-0 w-full h-full bg-Plavender border border-Slavender group-hover:bg-Pblack"></span>
+                  <span class="relative text-white ">Donwload CV</span>
                 </button>
-              </span>
-              <span>
-                <button className="text-purple-700 bg-black py-2 px-5 rounded-md border-purple-700 border-2">
-                  Donwload CV
+              </div>
+              <div className="w-full md:w-auto">
+              <div className="w-full md:w-auto">
+                <button class="relative inline-block font-medium group py-1.5 px-2.5 ">
+                  <span class="absolute inset-0 w-full h-full transition duration-400 ease-out transform translate-x-1 translate-y-1 bg-indigo-600 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+                  <span class="absolute inset-0 w-full h-full bg-Pblack border border-Slavender group-hover:bg-Plavender"></span>
+                  <span class="relative text-white ">Donwload CV</span>
                 </button>
-              </span>
+              </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="max-w-s bg-green-50">
+        <div className="xl:w-1/2 min-h-64">
           <img
-            src="https://i.pinimg.com/736x/ce/6b/9f/ce6b9fc92c7983e31f4d55c5655bcab1.jpg"
+            src="https://images.pexels.com/photos/18495/pexels-photo.jpg?cs=srgb&dl=pexels-omaralnahi-18495.jpg&fm=jpg"
             alt=""
           />
         </div>
       </div>
 
       <Project />
+      <About/>
+      <Hire />
     </div>
   );
 };

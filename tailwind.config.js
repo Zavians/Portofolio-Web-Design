@@ -30,11 +30,15 @@ module.exports = {
         Sblack : "#0F0F0F",
         Tblack : "#131313",
         Lblack  : "#0C0916",
-        Fblack : "#323443",
-
+        Fblack : "#222831", 
+        F2black : "#2D333C",
         Pgray : "#707070",
-        Sgray : "#999999"
+        Sgray : "#999999",
+
+        Kblack : "#1a1a1a"
       },
+
+      
     },
   },
   plugins: [],

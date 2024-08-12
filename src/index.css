@@ -74,6 +74,14 @@
     transform: rotateY(180deg);
   }
 
+  .box {
+    background-color: #1a1a1a; /* Warna hitam yang lebih terang untuk box */
+    padding: 24px; /* Padding sesuai dengan kelas p-6 */
+    border-radius: 8px; /* Sudut membulat sesuai dengan kelas rounded-lg */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3), /* Shadow yang lebih besar dan lebih halus */
+                0 4px 6px rgba(0, 0, 0, 0.2);  /* Shadow tambahan untuk kesan smooth */
+  }
+
 
 
 @layer utilities {
