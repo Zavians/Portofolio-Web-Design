@@ -7,10 +7,10 @@ import { SlSocialGithub } from "react-icons/sl";
 
 export const Lower = () => {
   return (
-    <div className="pl-10 p-8 bg-black text-white font-poppins">
+    <div className="p-8 px-12 bg-black text-white font-poppins">
       <div className="flex justify-between items-center">
         <div className="flex-1">
-          <h1 className="text-3xl font-semibold">Let's Keep in Touch!</h1>
+          <h1 className="text-3xl font-semibold glow-text-white">Let's Keep in Touch!</h1>
           <h1 className="text-l text-gray-400 mt-2">
            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis error illo earum id quas iure quos dicta amet aut doloribus?
           </h1>
@@ -51,10 +51,10 @@ export const Lower = () => {
             </div>
 
             <div className="mt-8 space-y-4">
-              <div>Home</div>
-              <div>About</div>
-              <div>Home</div>
-              <div>Home</div>
+              <div><button>Home</button></div>
+              <div><button>Home</button></div>
+              <div><button>Home</button></div>
+              <div><button>Home</button></div>
             </div>
           </div>
         </div>

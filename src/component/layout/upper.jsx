@@ -3,19 +3,19 @@ import "../../index.css";
 
 export const Upper = () => {
   return (
-    <div className="p-3 font-poppins font-semibold pl-10 bg-black">
+    <div className="p-8 px-12 font-poppins font-semibold  bg-black ">
       <div className="flex justify-between items-center ">
         <div>
           <span className="text-white text-xl">My</span>
           <span className="text-purple-700 text-xl">Portofolio</span>
         </div>
-        <div className="flex space-x-8 p-2 mr-10 items-center">
-          <div className="text-white">Home</div>
-          <div className="text-white">About</div>
-          <div className="text-white">Project</div>
-          <div className="text-purple-700 border py-2 px-5 rounded-md border-purple-700">
-            Project
-          </div>
+        <div className="flex space-x-8 p-2  items-center justify-end">
+          <button className="text-white">Home</button>
+          <button className="text-white">Project</button>
+          <button className="text-white">About Me</button>
+          <button className="text-purple-700 border py-2 px-5 rounded-md border-purple-700">
+            Hire Me
+          </button>
         </div>
       </div>
       <div>

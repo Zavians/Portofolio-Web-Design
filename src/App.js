@@ -2,7 +2,9 @@ import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import './index.css';
 import Upper from './component/layout/upper.jsx';
 import Lower from './component/layout/lower.jsx';
-import{ Project } from './component/main/project.jsx';
+import Main from './component/main/main.jsx';
+
+
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
       <div>
         <Upper />
         <Routes>
-         <Route path='/main' element={<Project/>}/>
+         <Route path='/' element={<Main/>}/>
         </Routes>
         <Lower />
       </div>
