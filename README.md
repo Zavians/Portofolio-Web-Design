@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Portofolio Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PortoWeb adalah website portofolio pribadi yang dirancang untuk menampilkan hasil karya, pengalaman, dan keterampilan saya di bidang pengembangan web. Website ini dibuat dengan tujuan untuk memberikan gambaran yang jelas mengenai proyek-proyek yang telah saya kerjakan, teknologi yang saya kuasai, serta untuk memudahkan komunikasi dengan calon klien atau rekan kerja. Melalui PortoWeb, saya ingin memperlihatkan dedikasi dan kualitas pekerjaan saya sebagai seorang developer.
 
-## Available Scripts
+## Fitur pada Website
 
-In the project directory, you can run:
+- **Desain Responsif**: Website ini dapat diakses dengan baik di berbagai perangkat, baik desktop maupun seluler.
+- **Portofolio Proyek**: Bagian khusus untuk menampilkan proyek-proyek yang telah saya kerjakan, lengkap dengan deskripsi dan tautan ke repositori atau demo.
+- **Tentang Saya**: Informasi mengenai latar belakang, pengalaman, dan keterampilan yang saya miliki.
+- **Formulir Kontak**: Formulir yang dapat digunakan pengunjung untuk menghubungi saya secara langsung.
+- **Tautan Media Sosial**: Tautan ke profil media sosial saya untuk koneksi lebih lanjut.
 
-### `npm start`
+## Tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HTML5**: Digunakan untuk struktur konten website.
+- **CSS3**: Digunakan untuk styling dan layout, termasuk untuk desain responsif.
+- **JavaScript**: Digunakan untuk interaktivitas dan dinamika konten.
+- **[Framework/CMS]**: Pada proyek ini digunakan Framework React sebagai kerangka utama serta library Tailwind sebagai pendukung dalam pembuatan desain web.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Aplication Overview
+![image](https://github.com/user-attachments/assets/f2480f41-29eb-464a-92a3-6609913d2db7)
+![image](https://github.com/user-attachments/assets/98accddb-d9e9-4288-b66e-8ec1e6e66c2c)
+![image](https://github.com/user-attachments/assets/5455957b-dd7c-404a-9fa0-4e5ad8caf1fb)
+![image](https://github.com/user-attachments/assets/5ae7a988-71fe-4fe0-8bf9-73d02bca65af)
+![image](https://github.com/user-attachments/assets/1114b11d-46fd-493c-811c-a764d1baff48)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
